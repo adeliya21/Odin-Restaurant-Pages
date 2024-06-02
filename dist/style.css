@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --fonst-size-md: 16px;
+    --fonst-size-lg: 24px;
+    --space-sm: 10px;
+    --space-md: 20px;
+    --space-lg: 100px;
+    --black: black;
+}
+
+body {
+    background-image: url('https://media.houseandgarden.co.uk/photos/6548bac4ae920bdd9a97b4d2/master/w_1600%2Cc_limit/Restaurant%2520Interior%2520(Credit%2520Ben%2520Carpenter).jpg');
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: var(--space-sm) var(--black);
+    padding: var(--space-sm) 0 var(--space-sm) 0;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+}
+
+#tab-btn {
+    padding: var(--space-sm);
+    width: var(--space-lg);
+}
+
+.pageContent, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--fonst-size-lg);
+    padding: var(--fonst-size-md);
+}
+
+form {
+    /* flex: 2 0 400px; /* Flex-grow, flex-shrink, flex-basis */
+    min-width: 300px;
+}
+
+#message-input {
+    width: 100%;
+    font-size: var(--fonst-size-md);
+    padding: var(--fonst-size-md);
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    font-size: var(--fonst-size-md);
+    padding: var(--space-sm);
+}
+
+#submit-btn {
+    width: 40%;
+}
