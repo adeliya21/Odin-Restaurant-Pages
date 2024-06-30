@@ -11,6 +11,9 @@
 }
 
 body {
+    height: 100vh; /* wthout it the pic is going to repaat */
+    background-size: cover; /* will resize the image so that it is always completely filling its container while cropping as little as possible. */
+    background-position: center; /* center within the cntainer */
     background-image: url('https://media.houseandgarden.co.uk/photos/6548bac4ae920bdd9a97b4d2/master/w_1600%2Cc_limit/Restaurant%2520Interior%2520(Credit%2520Ben%2520Carpenter).jpg');
 }
 
